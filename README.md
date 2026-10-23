@@ -2,11 +2,18 @@
 
 A free browser-based 3D driving prototype inspired by HITEC City and Madhapur, Hyderabad.
 
-## Play
+## Publish the free website
 
-Once GitHub Pages is enabled and the deployment finishes, visit:
+The game source is already in this public repository. To publish the free live site once:
 
-https://bharath20865.github.io/ride_in_hyd/
+1. Open [Repository Pages settings](https://github.com/bharath20865/ride_in_hyd/settings/pages).
+2. Under **Build and deployment**, set **Source** to **GitHub Actions** and save.
+3. Open [Actions](https://github.com/bharath20865/ride_in_hyd/actions/workflows/deploy.yml), select **Deploy static site to GitHub Pages**, then choose **Run workflow** on branch `main`.
+4. When the workflow succeeds, visit:
+
+   https://bharath20865.github.io/ride_in_hyd/
+
+The connector cannot enable GitHub Pages automatically, so this one-time setting must be made by the repository owner. No paid map key or premium Lovable plan is required.
 
 ## Controls
 
